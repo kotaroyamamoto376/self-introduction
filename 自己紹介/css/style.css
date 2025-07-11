@@ -1,0 +1,57 @@
+@charset "UTF-8";
+html {
+    font-size: 100%
+}
+
+body {
+    font-family: "BIZ UDMincho", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2.0;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    text-align: justify;
+    background-color: #dbd1ff;
+}
+a{
+    text-decoration: none;
+    color:#9d00ff
+}
+h1{
+    font-size: 400%;
+    text-align: center;
+}
+td{
+    text-align: center;
+    vertical-align: middle;
+    padding: 3px;
+}
+article h2:nth-child(1),
+article h2:nth-child(3),
+article h2:nth-child(5) {
+  text-decoration: underline;
+}
+.cyber {
+  max-width: 100%;  
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+.main-nav{
+    font-size: 140%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    list-style: none;
+}
+/*デスクトップ版*/
+@media (min-width: 800px){
+    .desktop-nav{
+        font-size: 200%
+    }
+    .Cyber{
+        width: 80%;
+    }
+}
